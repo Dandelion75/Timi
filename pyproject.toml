@@ -1,0 +1,24 @@
+[project]
+name = "timi"
+version = "1.0.0"
+description = "A terminal app to visualize time progress"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+readme = "README.md"
+license = {text = "GPL-3.0-or-later"}
+requires-python = ">=3.1"
+
+dependencies = [
+    "textual>=0.36.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+timi = "timi.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/timi"]
+
