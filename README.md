@@ -7,10 +7,10 @@ A terminal app to visualize time progess in form of progress bar.
 
 ## 📦 Installation
 
-### From GitHub
+### From pip
 
 ```bash
-pip install git+https://github.com/Dandelion75/timi.git
+pip install timi
 ```
 
 ## From Source
